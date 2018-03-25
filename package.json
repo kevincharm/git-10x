@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "blessed": "^0.1.81",
-    "git-10x-branch": "^1.1.0"
+    "git-10x-branch": "^1.2.0"
   }
 }

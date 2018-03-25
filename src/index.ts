@@ -5,6 +5,7 @@ export default async function main() {
     const args = process.argv.slice(2)
     switch (args[0]) {
         case 'branch':
+            stripSubCommand()
             await branch()
             break
         default:
@@ -13,4 +14,8 @@ export default async function main() {
                 stdio: 'inherit'
             }).unref()
     }
+}
+
+function stripSubCommand() {
+    process.argv = process.argv.slice(1)
 }
