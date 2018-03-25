@@ -16,12 +16,12 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
+    "@types/blessed": "^0.1.10",
     "@types/tape": "^4.2.31",
     "tape": "^4.9.0"
   },
   "dependencies": {
-    "@types/blessed": "^0.1.10",
     "blessed": "^0.1.81",
-    "git-10x-branch": "^1.0.0"
+    "git-10x-branch": "^1.1.0"
   }
 }
